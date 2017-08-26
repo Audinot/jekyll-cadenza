@@ -1,8 +1,9 @@
 body {
-  background-color: #588C7E; }
+  background-image: url("/jekyll-cadenza/img/kpviolin.jpg");
+  background-size: cover; }
 
 h1 {
-  color: #F2E394;
+  color: #fff;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 175px;
   font-weight: bold;
@@ -11,13 +12,13 @@ h1 {
   text-align: center; }
 
 h3 {
-  color: #F2E394;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
   font-weight: 300;
   line-height: 32px;
-  margin: 0 0 72px;
-  text-align: center; }
+  margin: 0 20px 72px;
+  text-align: right; }
 
 p {
   color: #D96459;
