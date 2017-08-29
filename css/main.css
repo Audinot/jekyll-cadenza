@@ -1,8 +1,4 @@
-html {
-  min-height: 100%; }
-
 body {
-  height: 100%;
   background-color: #e4dbbf; }
 
 .kpContent {
@@ -17,16 +13,13 @@ img {
 h1 {
   color: #444;
   font-family: "Amatic SC", cursive, "Helvetica Neue", serif;
-  font-size: 12vw;
   font-weight: bold;
-  letter-spacing: -1px;
   text-align: center;
   margin-top: 20px; }
 
 h2 {
   color: #444;
   font-family: "Amatic SC", sans-serif;
-  font-size: 24px;
   text-align: right; }
 
 a, p {
