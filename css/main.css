@@ -1,0 +1,28 @@
+html {
+  min-height: 100%; }
+
+body {
+  background-image: url("/jekyll-cadenza/img/kpviolin.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%; }
+
+.kpContent {
+  height: 100%; }
+
+.kpContent h1 {
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10vw;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-top: 20px; }
+
+.kpContent h3 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: right; }
