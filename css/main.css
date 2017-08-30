@@ -1,26 +1,30 @@
+body, html {
+  height: 100%; }
+
 body {
-  background-color: #e4dbbf; }
-
-.kpContent {
-  height: 100%;
-  margin-top: 5vh; }
-
-img {
-  width: 95%;
-  display: block;
-  margin: auto; }
+  background-color: #EAEAEA; }
 
 h1 {
   color: #444;
   font-family: "Amatic SC", cursive, "Helvetica Neue", serif;
   font-weight: bold;
-  text-align: center;
   margin-top: 20px; }
 
 h2 {
   color: #444;
-  font-family: "Amatic SC", sans-serif;
-  text-align: right; }
+  font-family: "Amatic SC", sans-serif; }
 
 a, p {
   font-family: "Open Sans", sans-serif; }
+
+.hero-image {
+  background-image: url("/jekyll-cadenza/img/kpviolin.jpg");
+  height: calc(100vh - 56px);
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-text h1, .hero-text h2 {
+  color: #fff; }
