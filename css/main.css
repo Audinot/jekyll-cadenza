@@ -4,18 +4,25 @@ body, html {
 body {
   background-color: #EAEAEA; }
 
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-style: italic; }
+
 h1 {
-  color: #444;
-  font-family: "Amatic SC", cursive, "Helvetica Neue", serif;
-  font-weight: bold;
-  margin-top: 20px; }
+  font-family: "Raleway", sans-serif;
+  margin-top: 20px;
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 600; }
 
 h2 {
-  color: #444;
-  font-family: "Amatic SC", sans-serif; }
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  line-height: 1.1;
+  font-style: italic; }
 
 a, p {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .hero-image {
   background-image: url("/jekyll-cadenza/img/kpviolin.jpg");
@@ -27,4 +34,5 @@ a, p {
   position: relative; }
 
 .hero-text h1, .hero-text h2 {
-  color: #fff; }
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
